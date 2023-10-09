@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board {
+    display: grid;
+    width: fit-content;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.label-top {
+    font-size: 18;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+
+.label-bottom {
+    font-size: 18;
+    font-weight: bold;
+    padding-right: 60px;
+}
+
+.label-for-one {
+    font-size: 18;
+    font-weight: bold;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
